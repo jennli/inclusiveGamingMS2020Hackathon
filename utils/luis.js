@@ -3,6 +3,7 @@
 //
 const requestPromise = require('request-promise');
 const queryString = require('querystring');
+const secrets = require('../secrets.json')
 
 // Analyze a string utterance.
 async function getPrediction(utterance) {
@@ -10,13 +11,13 @@ async function getPrediction(utterance) {
     // Values to modify.
 
     // YOUR-APP-ID: The App ID GUID found on the www.luis.ai Application Settings page.
-    const LUIS_appId = "";
+    const LUIS_appId = secrets.LUIS_appId;
 
     // YOUR-PREDICTION-KEY: Your LUIS authoring key, 32 character value.
-    const LUIS_predictionKey = "";
+    const LUIS_predictionKey = secrets.LUIS_predictionKey;
 
     // YOUR-PREDICTION-ENDPOINT: Replace this with your authoring key endpoint.
-    const LUIS_endpoint = "";
+    const LUIS_endpoint = secrets.LUIS_endpoint;
 
     // The utterance you want to use.
     // const utterance = "I want two large pepperoni pizzas on thin crust please";
