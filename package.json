@@ -7,7 +7,7 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Brad Traversy",
+  "author": "Jennifer Li",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",

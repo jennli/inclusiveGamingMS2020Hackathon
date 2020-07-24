@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #6264a7;
+	--teams-purple-main: #6264a7;
+	--teams-whilte: #ffffff;
+	--teams-grey-20: #f3f2f1;
 	--dark-color-b: #6264a7;
 	--light-color: white;
 	--success-color: #5cb85c;
@@ -33,7 +35,7 @@ a {
 	cursor: pointer;
 	padding: 5px 15px;
 	background: var(--light-color);
-	color: var(--dark-color-a);
+	color: var(--teams-purple-main);
 	border: 0;
 	font-size: 17px;
 }
@@ -48,7 +50,7 @@ a {
 }
 
 .chat-header {
-	background: var(--dark-color-a);
+	background: var(--teams-purple-main);
 	color: #fff;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -61,11 +63,12 @@ a {
 .chat-main {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	background-color: var(--teams-grey-20);
 }
 
 .chat-sidebar {
-	background: var(--dark-color-b);
-	color: #fff;
+	background: var(--teams-whilte);
+	color: black;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
 }
@@ -112,7 +115,7 @@ a {
 
 .chat-form-container {
 	padding: 20px 30px;
-	background-color: var(--dark-color-a);
+	/* background-color: var(--teams-purple-main); */
 }
 
 .chat-form-container form {
@@ -136,7 +139,7 @@ a {
 .join-header {
 	text-align: center;
 	padding: 20px;
-	background: var(--dark-color-a);
+	background: var(--teams-purple-main);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
