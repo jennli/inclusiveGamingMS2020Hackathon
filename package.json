@@ -10,7 +10,7 @@
   "author": "Jennifer Li",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.24.0",
     "querystring": "^0.2.0",
     "request": "^2.88.2",
